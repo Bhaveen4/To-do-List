@@ -23,7 +23,7 @@ const Todoform = ({ addTodo }) => {
           />
           <Button
             variant="contained"
-            color="error"
+            color="primary"
             style={{ marginTop: 5 }}
             type="submit"
           >
