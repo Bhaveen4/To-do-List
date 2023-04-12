@@ -12,7 +12,9 @@ const Todoform = ({ addTodo }) => {
   };
   return (
     <Container maxWidth="sm">
+
       <h1 style={{textAlign: "center", color:"green"}}>To Do List</h1>
+
       <form onSubmit={handleSubmit}>
         <FormControl fullWidth={true}>
           <TextField
